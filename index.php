@@ -119,9 +119,9 @@ Chk By ⤿ <a href='tg://user?id=$userId'>$username</a>[$Rank]</b>";
 return $template;
 }
 
-$db = new MysqliDb ('mysql-arturo.alwaysdata.net','arturo','15112003Aa!','arturo_dior');
+$db = new MysqliDb ('MySQL.railway.internal', 'root', 'IRFIdAFDzytjKaUnaWddxOqhReIrFqMq', 'telegram_bot_cc');
 
-$telegram = new Telegram("5456276655:AAFt3u9hGVZxA72kBJrTc9W-Bmp7CWjLJBA");
+$telegram = new Telegram("8085937206:AAHiyhhiuTtbAqjbDAyay8U223sECnELgjM");
 
 
 
