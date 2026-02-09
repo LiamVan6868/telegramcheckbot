@@ -128,7 +128,7 @@ $telegram = new Telegram("5456276655:AAFt3u9hGVZxA72kBJrTc9W-Bmp7CWjLJBA");
 date_default_timezone_set('America/Bogota');
 // ⚠️ CONFIGURACIÓN MOVIDA A config.php
 // Renombrar database/config_example.php a config.php y configurar
-require_once __DIR__ . '/config.php';
+//require_once __DIR__ . '/config.php';
 $Mi_Id = getOwnerId();
 $botToken = getBotToken();
 $website = "https://api.telegram.org/bot".$botToken;
